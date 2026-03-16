@@ -80,5 +80,4 @@ Suggestions and improvements are welcome. Feel free to open an issue or submit a
 
 ## License
 
-MIT License
 Copyright (c) 2026 Prabhav Sharma

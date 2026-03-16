@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VocabSnap</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="title">VocabSnap</div>
+      <div class="subtitle">Vocabulary Builder</div>
+    </header>
+
+    <div class="controls">
+      <input id="search" class="search" type="text" placeholder="Search saved words…" />
+    </div>
+
+    <main>
+      <div id="empty" class="empty hidden">
+        No saved words yet. Select a word on a page and click “Save Word”.
+      </div>
+      <ul id="list" class="list"></ul>
+    </main>
+
+    <footer class="footer">
+      <button id="refresh" class="btn-secondary" type="button">Refresh</button>
+      <div id="count" class="count"></div>
+    </footer>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
+

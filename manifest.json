@@ -1,0 +1,23 @@
+{
+  "name": "VocabSnap – Vocabulary Builder",
+  "description": "Save words you meet while reading. Select a word to save it with a definition and example, and review later from the popup.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "VocabSnap",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "contextMenus", "activeTab", "scripting"],
+  "host_permissions": ["http://*/*", "https://*/*", "file://*/*"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*", "file://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
+

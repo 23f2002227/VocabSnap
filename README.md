@@ -7,9 +7,9 @@ Instead of interrupting your reading flow to search or note down words, you can 
 
 ## Demo
 
-![Selecting Word](screen_1.png)
+![Selecting Word](assets/screen_1.png)
 
-![Saved Words Dashboard](screen_2.png)
+![Saved Words Dashboard](assets/screen_2.png)
 
 ---
 

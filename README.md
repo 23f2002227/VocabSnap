@@ -44,7 +44,40 @@ Instead of interrupting your reading flow to search or note down words, you can 
 - chrome.storage.local
 
 ---
-
 ## Installation (Try it locally)
 
-1. Clone the repository
+1. Clone the repository  
+   git clone https://github.com/23f2002227/VocabSnap.git 
+
+2. Open Chrome and go to  
+   chrome://extensions  
+
+3. Enable **Developer Mode**
+
+4. Click **Load Unpacked**
+
+5. Select the project folder
+
+The extension will now appear in your browser.
+
+---
+
+## Future Improvements
+
+- Dictionary API integration  
+- Flashcard-based vocabulary revision  
+- Spaced repetition learning  
+- Export saved words  
+- Publish extension on the Chrome Web Store  
+
+---
+
+## Contributing
+
+Suggestions and improvements are welcome. Feel free to open an issue or submit a pull request.
+
+---
+
+## License
+
+MIT License
